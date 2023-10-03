@@ -7,7 +7,7 @@ import FormField from '../components/FormField';
 import Loader from '../components/Loader';
 import { checkIfImage } from '../utils';
 
-const CreateCampaign = () => {
+const CreateTender = () => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const { createTender, uploadPhoto } = TenderiumContext();
@@ -164,4 +164,4 @@ const CreateCampaign = () => {
   )
 }
 
-export default CreateCampaign
+export default CreateTender;

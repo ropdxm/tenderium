@@ -29,7 +29,7 @@ const Profile = () => {
 
   return (
     <DisplayTenders 
-      title="All Campaigns"
+      title="All Tenders"
       isLoading={isLoading}
       tenders={tenders}
     />
