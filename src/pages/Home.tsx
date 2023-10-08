@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 
-// import { DisplayCampaigns } from '../components';
 import { TenderiumContext } from '../utils/Context'
 import DisplayTenders, { ITender } from '../components/DisplayTenders.js';
 
