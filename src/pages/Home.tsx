@@ -12,13 +12,9 @@ const Home = () => {
   const fetchTenders = async () => {
     setIsLoading(true);
     let data = await getTenders();
+    console.log("Tenders: ");
     console.log(data);
     setIsLoading(false);
-
-    for(const _a of data){
-      
-      
-    }
 
     setTenders(data);
 
